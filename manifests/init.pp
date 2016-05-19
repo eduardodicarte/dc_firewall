@@ -10,6 +10,6 @@
 #
 # Sample Usage:
 #
-class dcfirewall {
-  include ::dcfirewall::install
+class dc_firewall {
+  include ::dc_firewall::install
 }

@@ -1,4 +1,4 @@
-class dcfirewall::install{
+class dc_firewall::install{
   package {'firewalld':
     ensure => absent
   }
