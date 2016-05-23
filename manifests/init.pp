@@ -10,6 +10,6 @@
 #
 # Sample Usage:
 #
-class dc_firewall {
+class dc_firewall(String $configAccept) {
   include ::dc_firewall::install
 }
