@@ -12,4 +12,5 @@
 #
 class dc_firewall(String $configAccept) {
   include ::dc_firewall::install
+  include ::dc_firewall::config
 }
